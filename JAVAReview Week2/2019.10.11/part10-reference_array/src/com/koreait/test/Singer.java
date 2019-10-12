@@ -17,8 +17,8 @@ public class Singer {
 		songList[idx++] = song;
 	}
 	void output() {
-		System.out.println("°¡¼ö ÀÌ¸§ : " + name);
-		System.out.println("´ëÇ¥°î ¸ğÀ½ ------------");
+		System.out.println("ê°€ìˆ˜ ì´ë¦„ : " + name);
+		System.out.println("ë…¸ë˜ ì •ë³´ ------------");
 		for( Song song : songList) {
 			song.output();
 		}
