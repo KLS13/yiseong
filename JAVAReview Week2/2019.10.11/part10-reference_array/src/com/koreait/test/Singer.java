@@ -18,7 +18,7 @@ public class Singer {
 	}
 	void output() {
 		System.out.println("가수 이름 : " + name);
-		System.out.println("노래 정보 ------------");
+		System.out.println("노래 정보 -------------");
 		for( Song song : songList) {
 			song.output();
 		}
