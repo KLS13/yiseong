@@ -1,0 +1,61 @@
+문제1. 상속 관계로 구현하시오.
+
+Test01.java
+
+Student.java		필드 : String name, int age, String school
+					메소드 : Constructor, output()
+Worker.java			필드 : String name, int age, String job	
+					메소드 : Constructor, output()
+					-------- 상속 적용 --------
+Person.java			필드 : String name, int age
+					메소드 : Constructor, output()
+Student.java		필드 : String school
+					메소드 : Constructor, output()
+Worker.java			필드 : String job	
+					메소드 : Constructor, output()
+
+
+문제2. Ex06_has_a 관계를 포함 관계로 수정하시오.
+
+
+문제3. 상속 관계로 구현하시오.
+
+Test03.java
+
+Notebook.java	필드 : String model, int price, int battery
+				메소드 : Constructor,output()
+Tablet.java		필드 : String model, int price, int battery, String pen
+				메소드 : Constructor,output()
+
+
+문제4. 상속 관계로 구현하시오.
+
+Test04.java
+
+Employee.java
+
+SalaryWorker.java		필드 : String name, String dept, int salary
+						메소드 : Constructor, int pay(), output()
+SalesWorker.java		필드 : String name, String dept, int salary, double salesIncentive
+						메소드 : Constructor, int pay(), output()
+PartTimeWorker.java		필드 : String name, String dept, int workTime, int payPerHour
+						메소드 : Constructor, int pay(), output()
+
+String name : 이름
+String dept : 부서
+int salary : 기본급(월급)
+double salesIncentive : 판매 인센티브
+int workTime : 근무시간
+int payPerHour : 시급
+
+
+
+
+
+
+
+
+
+
+
+
