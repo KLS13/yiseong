@@ -1,0 +1,16 @@
+java.lang.Object 클래스
+
+	1. 모든 클래스의 슈퍼클래스(super)이다.
+	2. 모든 클래스는 자동으로 Object 클래스를 상속받는다.
+	3. 따라서, 모든 클래스는 Object 클래스의 메소드를 사용할 수 있다.
+	4. 모든 클래스 및 데이터는 Object 클래스에 저장할 수 있다.
+	5. 주요 메소드
+		1) clone() : 인스턴스 복제
+			- 실제 복제 기능은 Object 클래스의 clone() 에 정의되어 있다.
+			- 반드시 Cloneable 인터페이스를 구현(implements)해야 한다.
+			- CloneNotSupportedException 예외 처리를 해야 한다.
+			- 본래 clone() 메소드의 접근 지시자(protected)를 public 으로 변경한다.
+		2) equals() : 인스턴스 동등 비교
+		3) getClass() : 클래스 알아내기
+		4) hashCode() : 해시코드 값 알아내기
+		5) toString() : 인스턴스 출력 문자열 반환
