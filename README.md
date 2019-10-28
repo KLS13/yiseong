@@ -8,3 +8,4 @@ C programming & Java
 1. 국가전략훈련
 2. 복습 및 개인공부
 3. C & Java 예제풀이
+4. Oracle & SQLD
