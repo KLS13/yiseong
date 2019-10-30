@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8A985A4-4038-4A53-BB72-D1FEF1120BDA" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="CUSTOMER">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTIMERID" id="BBA9F3D1-A5B4-FB2E-2329-CCD7EC4B15D5">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTIMERID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="ED700E45-FF63-1965-41D9-6364CE5F77EB">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="2B5063E4-6B99-EFEF-E918-C4E16F3C1E14">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="207AB66F-C779-C8A5-0BCD-86A28BF61FF6">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCA0AD35-C9F1-6ED8-10F5-C30476BBB646" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="CUSTOMER_PK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>SYS_C007057</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA9F3D1-A5B4-FB2E-2329-CCD7EC4B15D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

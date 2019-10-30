@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CUSTOMER" directorySegmentName="seg_0" id="A8A985A4-4038-4A53-BB72-D1FEF1120BDA">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>0A404416-4C6E-CD55-A46A-53ABF2DD349E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EB356B0A-2458-1DF2-0E2D-F9336E77B2B2</segment>
+<tableSpace>D790A59C-941A-CCAB-ED23-097A74945021</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PHONE" id="207AB66F-C779-C8A5-0BCD-86A28BF61FF6">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="2B5063E4-6B99-EFEF-E918-C4E16F3C1E14">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTIMERID" id="BBA9F3D1-A5B4-FB2E-2329-CCD7EC4B15D5">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="ED700E45-FF63-1965-41D9-6364CE5F77EB">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="CCA0AD35-C9F1-6ED8-10F5-C30476BBB646">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:50:12 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>0A404416-4C6E-CD55-A46A-53ABF2DD349E</schemaObject>
+<segment>5216278F-354E-42DE-94AD-5884CA45D73E</segment>
+<tableSpace>D790A59C-941A-CCAB-ED23-097A74945021</tableSpace>
+<indexSegment>5216278F-354E-42DE-94AD-5884CA45D73E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

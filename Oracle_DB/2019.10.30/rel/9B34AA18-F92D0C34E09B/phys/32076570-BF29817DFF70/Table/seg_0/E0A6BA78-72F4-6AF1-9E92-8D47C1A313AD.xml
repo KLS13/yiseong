@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOK" directorySegmentName="seg_0" id="E0A6BA78-72F4-6AF1-9E92-8D47C1A313AD">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:05 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>0A404416-4C6E-CD55-A46A-53ABF2DD349E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>EB356B0A-2458-1DF2-0E2D-F9336E77B2B2</segment>
+<tableSpace>D790A59C-941A-CCAB-ED23-097A74945021</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PUBLISHER" id="10B1D0C6-DEDB-6B1F-1AC9-3915E532559B">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="1E4E815F-46CC-4410-E6B4-3FD7DCB74C27">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="7DA16969-F52F-DB25-57E5-2990CB7725C5">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="B48B6873-231C-4459-CC9C-582A66980CE5">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BOOK_PK" id="63BADB80-37C6-4CA7-B134-960FE0BF9C84">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<schemaObject>0A404416-4C6E-CD55-A46A-53ABF2DD349E</schemaObject>
+<segment>5216278F-354E-42DE-94AD-5884CA45D73E</segment>
+<tableSpace>D790A59C-941A-CCAB-ED23-097A74945021</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOK_PK" id="69EBF186-BE01-9EA9-DDB2-7C783A530124">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<segment>5216278F-354E-42DE-94AD-5884CA45D73E</segment>
+<tableSpace>D790A59C-941A-CCAB-ED23-097A74945021</tableSpace>
+<existingIndex>63BADB80-37C6-4CA7-B134-960FE0BF9C84</existingIndex>
+<indexSegment>5216278F-354E-42DE-94AD-5884CA45D73E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

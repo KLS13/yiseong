@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A6BA78-72F4-6AF1-9E92-8D47C1A313AD" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="BOOK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>BOOK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:05 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOKID" id="7DA16969-F52F-DB25-57E5-2990CB7725C5">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKNAME" id="B48B6873-231C-4459-CC9C-582A66980CE5">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>BOOKNAME</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHER" id="10B1D0C6-DEDB-6B1F-1AC9-3915E532559B">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>PUBLISHER</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="1E4E815F-46CC-4410-E6B4-3FD7DCB74C27">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69EBF186-BE01-9EA9-DDB2-7C783A530124" name="BOOK_PK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>BOOK_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA16969-F52F-DB25-57E5-2990CB7725C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63BADB80-37C6-4CA7-B134-960FE0BF9C84" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="BOOK_PK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>BOOK_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:48:06 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DA16969-F52F-DB25-57E5-2990CB7725C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

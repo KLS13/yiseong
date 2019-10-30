@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BC384AB-FD2A-F671-BF99-6D1CE1E0813B" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="ORDERS">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>ORDERS</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERID" id="ABA9CD90-7D36-449A-2798-4BDD855D17A5">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>ORDERID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKID" id="5F36CB1C-C730-324C-558C-F3D51CB2D5FB">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9F1CA23-67B6-1F77-F47C-16DE22F9F258" referredColumn="7DA16969-F52F-DB25-57E5-2990CB7725C5"/>
+</associations>
+</Column>
+<Column name="CUSTOMERID" id="F6233524-AC0C-4020-C00E-4BB95CBF542F">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>CUSTOMERID</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59275CF4-E7BC-511E-5B09-8CCF8F816ABC" referredColumn="BBA9F3D1-A5B4-FB2E-2329-CCD7EC4B15D5"/>
+</associations>
+</Column>
+<Column name="SALEPRICE" id="FA02C307-624C-8802-A5F0-322590B0F407">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>SALEPRICE</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN2" id="85D4BBA9-0343-2368-9881-ECB0311F4566">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>ORDERS</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B2BA77F-E755-2C2A-1343-A638EC2E6A13" name="ORDERS_PK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>ORDERS_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA9CD90-7D36-449A-2798-4BDD855D17A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B3E713-0C98-0980-FE37-DE15C98E4359" schemaObject="0A404416-4C6E-CD55-A46A-53ABF2DD349E" name="ORDERS_PK">
+<sourceConnName>%EB%A1%9C%EC%BB%AC-james</sourceConnName>
+<sourceObjSchema>JAMES</sourceObjSchema>
+<sourceObjName>ORDERS_PK</sourceObjName>
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABA9CD90-7D36-449A-2798-4BDD855D17A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D872382D-2648-AF34-6BDE-09624CF960D6" name="ORDERS_BOOK_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:49:29 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F36CB1C-C730-324C-558C-F3D51CB2D5FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA8352A6-AFE1-AA6B-A979-DA5CF98FE7B6" name="ORDERS_CUSTOMER_FK">
+<createdBy>PC</createdBy>
+<createdTime>2019-10-30 00:54:51 UTC</createdTime>
+<ownerDesignName>MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6233524-AC0C-4020-C00E-4BB95CBF542F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
