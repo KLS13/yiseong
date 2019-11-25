@@ -25,7 +25,7 @@ public class Ex06_modify {
 			String sql = "select * from member where id = ? AND pw = ?";		
 			ps = conn.prepareStatement(sql);
 			inputId = JOptionPane.showInputDialog("아이디입력");
-			inputId = JOptionPane.showInputDialog("비밀번호입력");
+			inputPw = JOptionPane.showInputDialog("비밀번호입력");
 			ps.setString(1,inputId);
 			ps.setString(2,inputPw);
 			rs = ps.executeQuery();
