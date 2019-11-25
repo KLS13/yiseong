@@ -1,0 +1,56 @@
+1. DBConnect.java
+	1) user : james
+	2) password : bond
+
+2. Ex01_create.java
+	1) member 테이블 생성
+		필드명			타입			특징
+		no				number			회원번호, PK, NN
+		name			varchar2(20)	성명, NN
+		id				varchar2(20)	아이디, NN, UNIQUE
+		pw				varchar2(20)	비밀번호, NN
+		join_date		date			가입일
+		login			varchar2(5)		로그인유무, "yes" or "no"
+		lock			varchar2(5)		중지계정, "yes" or "no"
+		* NN : Not Null (널 값 금지)
+		* UINIQUE : 중복 금지
+	2) member_seq 시퀀스 생성
+		1부터 1씩 증가
+
+3. Ex02_join.java
+	1) 신규회원가입
+	2) 성명, 아이디, 비밀번호를 JOptionPana.showInputDialog 로 입력 받아서 사용
+	3) 회원번호는 member_seq 사용
+	4) 가입일은 현재날짜 사용
+	5) 로그인유무, 계정중지는 "no" 사용
+	
+4. Ex03_viewAll.java
+	1) 전체회원정보출력
+	2) 회원번호, 성명, 아이디(첫 2글자만 표시, 나머지 문자는 * 로 변환), 가입일, 중지계정 정보 출력
+	
+5. Ex04_login.java
+	1) 로그인
+	2) 아이디, 비밀번호를 JOptionPana.showInputDialog 로 입력 받아서 사용
+	3) 아이디, 비밀번호가 일치하는 정보를 찾아 로그인하기
+	4) 로그인에 성공하면 로그인유무를 "yes"로 변경
+	5) 중지계정이 "no"인 데이터만 로그인이 가능하도록 설정
+	6) 아이디를 먼저 입력 받아서 해당 아이디 정보가 있는 경우에만 추가로 비밀번호를 입력 받아서 로그인
+	7) 비밀번호의 최대 입력 횟수는 5회, 초과 입력하면 중지계정 "yes"로 변경
+	
+6. Ex05_modify.java
+	1) 회원정보수정
+	2) 아이디, 비밀번호를 JOptionPana.showInputDialog 로 입력 받아서 사용
+	3) 아이디와 비밀번호가 일치하는 회원 정보를 찾아 수정 (로그인과 연계할 필요 없음)
+	4) 수정 가능한 데이터는 성명, 비밀번호로 제한
+	5) 성명과 비밀번호 중 어느 것을 변경할 것인지 선택하여 작업할 수 있도록 구현
+
+7. Ex06_logout.java
+	1) 로그아웃
+	2) 로그아웃할 아이디를 JOptionPana.showInputDialog 로 입력 받아서 사용
+	3) 아이디가 일치하는 회원 정보를 찾아 로그인유무를 "no"로 변경
+	4) 로그인중인 회원만 로그아웃이 가능하도록 구현
+	
+8. Ex07_leave.java
+	1) 회원탈퇴
+	2) 아이디, 비밀번호를 JOptionPana.showInputDialog 로 입력 받아서 사용
+	3) 아이디를 먼저 입력 받아서 해당 아이디 정보가 있는 경우에만 추가로 비밀번호를 입력 받아서 확인 후 회원탈퇴
